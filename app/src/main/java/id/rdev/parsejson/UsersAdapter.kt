@@ -40,12 +40,6 @@ class UsersAdapter(val dataApi: ApiSolatResponse) : RecyclerView.Adapter<UsersAd
 //            itemView.nama.text = get?.midnight
 //            itemView.nama.text = get?.imsak
 
-            //itemView.nama.text = get?.code
-            //itemView.email.text = get?.status
-//            itemView.notelp.text = get?.phone
-
-
-
 //             val address = "${get?.data?.sunset}, ${get?.data?.asr}, ${get?.data?.isha}, ${get?.data?.fajr}, " +
 //                     "${get?.data?.dhuhr}, ${get?.data?.maghrib}, ${get?.data?.sunrise}, ${get?.data?.midnight}"
 //            itemView.alamat.text = address
