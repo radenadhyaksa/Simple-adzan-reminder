@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InterviewOpsigo</string>
+
+    <string name="text_jadwal">Schedule Prayer</string>
+    <string name="text_date">CURRENT DATE</string>
+
+
+</resources>
