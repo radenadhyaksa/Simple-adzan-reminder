@@ -50,13 +50,6 @@ class MainActivity : AppCompatActivity() {
                     Log.e("MainActivity", "current date" + datenow)
                     println("DATE = "+ datenow)
 
-                    //time
-//                    val frmtTime = SimpleDateFormat("hh:mm tt")
-//                    val timenow = frmtTime.format(java.util.Date())
-//                    println("TIME = "+ timenow)
-
-
-
                         var index = 0
                     while (datePray != datenow) {
                         datePray = response.body()?.data?.get(index)?.date?.readable.toString()
@@ -75,8 +68,6 @@ class MainActivity : AppCompatActivity() {
                     tvMaghrib.text = data?.timings?.maghrib
                     tvIsya.text = data?.timings?.isha
                     tvDate.text = datenow
-
-//                    rvUser.adapter = response.body()?.let { UsersAdapter(it) }
                 }
 
             })

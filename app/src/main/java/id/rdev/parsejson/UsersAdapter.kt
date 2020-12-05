@@ -30,10 +30,6 @@ class UsersAdapter(val dataApi: ApiSolatResponse) : RecyclerView.Adapter<UsersAd
     class MyHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(get: DataItem?) {
             itemView.nama.text = get?.timings?.dhuhr
-//            itemView.nama.text = get?.name
-//            itemView.email.text = get?.email
-//            itemView.notelp.text = get?.phone
-
 //            itemView.nama.text = get?.sunset
 //            itemView.nama.text = get?.asr
 //            itemView.nama.text = get?.isha
